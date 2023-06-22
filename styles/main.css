@@ -58,8 +58,22 @@ p {
 }
 
 .footer {
-  background-color: #d9cd4e;
+  background-color: rgb(230, 229, 229);
   border: 40px black;
   padding: 20px;
   margin-top: 30px;
+}
+
+.blog {
+  margin-top: 30px;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  background-color: #d9cd4e;
+  padding: 20px;
+  color: rgb(12, 40, 0);
+  text-align: left;
+  flex: 1;
+}
+
+.container {
+  display: flex;
 }
