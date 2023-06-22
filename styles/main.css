@@ -77,3 +77,16 @@ p {
 .container {
   display: flex;
 }
+
+span {
+  /* Specify the desired styles for the <span> elements */
+  color: rgb(251, 251, 252);
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times;
+  /* Add more styles as needed */
+}
+
+#main-header {
+  color: rgb(0, 33, 1);
+}
