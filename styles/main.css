@@ -1,0 +1,65 @@
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-size: xx-large;
+  text-align: center;
+  margin-top: auto;
+}
+
+h2 {
+  font-family: 'Helvetica', 'sans-serif';
+  font-size: medium;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.main-image {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: solid 10px #d9cd4e;
+}
+
+.footer-image {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  text-align: center;
+  font-size: small;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d9cd4e;
+  border: none;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.header {
+  background-color: rgb(230, 229, 229);
+  border: 40px thick black;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #d9cd4e;
+  border: 40px black;
+  padding: 20px;
+  margin-top: 30px;
+}
