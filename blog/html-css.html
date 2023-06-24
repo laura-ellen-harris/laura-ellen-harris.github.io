@@ -1,80 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <p>
+  <head>
+    <title>HTML and CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-    Understanding Classes vs. IDs in HTML and CSS
+  <!--navigation-->
 
-In the wild world of web development, HTML and CSS are the foundation for creating fancy, frilly and functional websites. Two important concepts to grasp are classes and IDs. In this blog post, we'll explore the difference between classes and IDs and provide simple examples to help you understand how to use them effectively.
+  <body>
+    <header class="header">
+      <h1>LAURA LEARNS</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="blog/dog-pics.html">RANDOM PICS OF MY DOG</a></li>
+        </ul>
+      </nav>
+    </header>
 
-Classes and IDs in HTML: In HTML, classes and IDs are attributes that can be assigned to elements to define their styles and behaviour.
+    <!--blog-->
+    <div class="container">
+      <h1>Understanding Classes vs. IDs in HTML and CSS</h1>
 
-Classes: A class is a way to group elements together based on a shared characteristic or purpose. By assigning the same class name to multiple elements, you can apply the same styles to all of them.
+      <p>
+        In the wild world of web development, HTML and CSS are the foundation
+        for creating fancy, frilly and functional websites. Two important
+        concepts to grasp are classes and IDs. In this blog post, we'll explore
+        the difference between classes and IDs and provide simple examples to
+        help you understand how to use them effectively.
+      </p>
 
-<!--example-->
-Here's an example:
+      <p>
+        Classes and IDs in HTML: In HTML, classes and IDs are attributes that
+        can be assigned to elements to define their styles and behaviour.
+      </p>
 
-html
+      <p>
+        Classes: A class is a way to group elements together based on a shared
+        characteristic or purpose. By assigning the same class name to multiple
+        elements, you can apply the same styles to all of them.
+      </p>
 
-<code>
-  <pre>
-<div class="highlight">
-  <h1>LAURA LEARNS</h1>
-  <p>~ a blog of reflections ~</p>
-</div>
-</pre>
-</code>
+      <!--example-->
+      <h2>Here's an example:</h2>
 
+      <img src="../images/code-1.png" alt="hero image" class="main-image" />
 
-In the code above, the div element has the class "highlight". Any CSS styles associated with the "highlight" class will be applied to all the elements within that div. This allows you to maintain consistent styling across multiple elements.
+      <p>
+        In the code above, the div element has the class "highlight". Any CSS
+        styles associated with the "highlight" class will be applied to all the
+        elements within that div. This allows you to maintain consistent styling
+        across multiple elements.
+      </p>
 
-IDs: An ID is a unique identifier assigned to a specific element. Unlike classes, each ID should only be used once in an HTML document. IDs are useful when you want to style or target a specific element individually.
+      <p>
+        IDs: An ID is a unique identifier assigned to a specific element. Unlike
+        classes, each ID should only be used once in an HTML document. IDs are
+        useful when you want to style or target a specific element individually.
+      </p>
+      <h2>Here's an example:</h2>
+      <img src="../images/code-2.png" alt="hero image" class="main-image" />
 
-<!--example-->
-Here's an example:
+      <p>
+        In this example, the h2 element has the ID "page-title". With this
+        unique identifier, you can easily style this specific heading element
+        using CSS.
+      </p>
 
-html
-Copy code
-<h2 id="page-title">Read my Blog</h2>
+      <p>
+        Best Practices: To use classes and IDs effectively, keep the following
+        best practices in mind:
+      </p>
 
-In this example, the h2 element has the ID "page-title". With this unique identifier, you can easily style this specific heading element using CSS.
+      <h2>Classes:</h2>
+      <p>Use classes to group entire elements with a specified CSS style.</p>
+      <p>
+        Choose an appropriate class name that reflects the purpose of that
+        element group.
+      </p>
+      <p>
+        classes whenever possible to maintain consistency, simplicity, and to
+        avoid code duplication.
+      </p>
 
-Best Practices: To use classes and IDs effectively, keep the following best practices in mind:
+      <h2>IDs:</h2>
+      <p>Assign IDs to elements that require individual styling.</p>
+      <p>
+        Assign and ID to an element within a class to specify a unique styling
+        element.
+      </p>
+      <p>
+        Use specific and meaningful ID names that accurately represent the
+        element's purpose.
+      </p>
 
-Classes:
-Use classes to group entire elements with a specified CSS style.
-Choose an appropriate class name that reflects the purpose of that element group.
-Reuse classes whenever possible to maintain consistency, simplicity, and to avoid code duplication.
+      <p>
+        Combining Classes and IDs: You can also combine classes and IDs to
+        create more precise styling options.
+      </p>
 
-IDs:
-Assign IDs to elements that require individual styling.
-Assign and ID to an element within a class to specify a unique styling element.
-Use specific and meaningful ID names that accurately represent the element's purpose.
+      <h2>For example:</h2>
 
+      <img src="../images/code-3.png" alt="hero image" class="main-image" />
 
-Combining Classes and IDs: You can also combine classes and IDs to create more precise styling options.
+      <p>
+        Here, the div has the ID "header," while the h1 and nav elements have
+        the classes "title" and "navigation" respectively. This allows you to
+        style both the entire header and its individual elements.
+      </p>
 
-For example:
+      <p>
+        Understanding how to use classes and IDs in HTML and CSS is fundamental
+        for building well-structured and visually appealing web pages. Classes
+        help group elements with shared styles, while IDs provide unique
+        identifiers for individual elements. By following best practices and
+        using them appropriately, you can create cohesive and visually
+        consistent websites.
+      </p>
+    </div>
 
-html
-
-<div id="header">
-  <h1 class="title">My Website</h1>
-  <nav class="navigation">
-    <!-- Navigation links here -->
-  </nav>
-</div>
-
-Here, the div has the ID "header," while the h1 and nav elements have the classes "title" and "navigation" respectively. This allows you to style both the entire header and its individual elements.
-
-Understanding how to use classes and IDs in HTML and CSS is fundamental for building well-structured and visually appealing web pages. Classes help group elements with shared styles, while IDs provide unique identifiers for individual elements. By following best practices and using them appropriately, you can create cohesive and visually consistent websites.
-
-
-  </p>
-</body>
+    <!--footer-->
+    <div class="footer">
+      <p>FIND ME ON GITHUB</p>
+      <a href="https://github.com/laura-ellen-harris">
+        <img
+          src="../images/github-logo.png"
+          alt="github-logo"
+          class="footer-image"
+        />
+      </a>
+    </div>
+  </body>
 </html>
